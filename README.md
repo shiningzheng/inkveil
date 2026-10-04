@@ -8,6 +8,22 @@ This repository is a clean **TypeScript web rewrite** of an earlier single-file 
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/title.png"  width="30%" alt="Title screen and level gallery" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/board.png"  width="30%" alt="Solving a board — weights on both axes, live targets" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/reveal.png" width="30%" alt="Ink reveal painted from the solved grid" />
+</p>
+
+<p align="center">
+  <em>Level gallery&nbsp; · &nbsp;solving the 山 (mountain) board&nbsp; · &nbsp;the 菱 (diamond) reveal</em>
+</p>
+
+---
+
 ## The puzzle
 
 An `n×n` grid. Column `c` carries weight `c+1` (shown along the top); row `r` carries weight `r+1` (shown down the left).
