@@ -1,0 +1,19 @@
+{
+  "name": "inkveil",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit",
+    "build": "node build.mjs",
+    "levels": "esbuild src/core/solver.ts --bundle --format=esm --outfile=/tmp/core.mjs && node scripts/validate.mjs > /tmp/levels_gen.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}
